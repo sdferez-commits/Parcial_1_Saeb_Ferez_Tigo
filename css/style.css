@@ -1,0 +1,141 @@
+body{
+    
+    background-color: rgb(21, 0, 255);
+}
+
+.container {
+    padding: 1%;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+    height: 40%;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.notice_bord{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    background-color: #ffcc00;
+}
+
+.main_vid iframe map{
+    width: 50%;
+}
+.main_vid iframe video{
+    width: 50%;
+    left: 50%;
+}
+
+.main_vid {
+    display: flex;
+    gap: 10px; 
+    width: 100%;
+}
+
+.main_vid iframe {
+    width: 50%;
+    height: 300px; 
+    border: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    width: 4%;
+}
+
+.container main img{
+    width: 100%;
+}
+
+.menu ul li a img{
+    width: 4%;
+    position:absolute;
+    left: 170px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;   
+  margin: 0;   
+}
+
+.btn1 {
+  top: 140px;
+}
+
+.btn2 {
+  top: 210px;
+}
+
+.btn3 {
+  top: 280px;
+}
+
+.notice {
+    background-color: #ffff00;
+    padding: 1%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.notice audio{
+    position: absolute;
+    top: 500px;
+    left: 69%;
+}
+
+
+.form-box {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.form-box h2 {
+  margin-bottom: 15px;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-box button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #45a049;
+}
